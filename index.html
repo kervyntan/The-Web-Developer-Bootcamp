@@ -6,14 +6,31 @@
   </head>
   <body>
     <form action="/dummy">
-      <p>
+      <div class= "name">
         <label for="first-name"> First Name </label>
         <input type="text" name="name" id="first-name" required>
 
         <label for="last-name"> Last Name </label>
         <input type="text" name="name" id="last-name" required>
 
-        </p>
+        </div>
+
+        <div class="select">
+          <p> Select a Race: </p>
+          </div>
+
+          <div class="run-options">
+            <label for="Fun Run"> Fun Run 5k </label>
+            <input type="radio" name="radio" id="Fun Run">
+
+            <label for="half-marathon"> Half Marathon </label>
+            <input type="radio" name="radio" id="half-marathon">
+
+            <label for="full-marathon"> Full Marathon </label>
+            <input type="radio" name="radio" id="full-marathon">
+            
+            </div>
+
       </form>
   </body>
 </html>
